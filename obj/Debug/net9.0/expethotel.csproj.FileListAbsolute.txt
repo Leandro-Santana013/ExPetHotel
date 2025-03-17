@@ -1,0 +1,15 @@
+C:\Users\ls139\Desktop\listas de lógica\expethotel\bin\Debug\net9.0\expethotel.exe
+C:\Users\ls139\Desktop\listas de lógica\expethotel\bin\Debug\net9.0\expethotel.deps.json
+C:\Users\ls139\Desktop\listas de lógica\expethotel\bin\Debug\net9.0\expethotel.runtimeconfig.json
+C:\Users\ls139\Desktop\listas de lógica\expethotel\bin\Debug\net9.0\expethotel.dll
+C:\Users\ls139\Desktop\listas de lógica\expethotel\bin\Debug\net9.0\expethotel.pdb
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.AssemblyInfoInputs.cache
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.AssemblyInfo.cs
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.csproj.CoreCompileInputs.cache
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.sourcelink.json
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.dll
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\refint\expethotel.dll
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.pdb
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\expethotel.genruntimeconfig.cache
+C:\Users\ls139\Desktop\listas de lógica\expethotel\obj\Debug\net9.0\ref\expethotel.dll
