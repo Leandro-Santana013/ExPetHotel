@@ -1,24 +1,66 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.Write("Espécie: ");
-string especie = Console.ReadLine().ToUpper();
-Console.Write("Raça: ");
-string raca = Console.ReadLine().ToUpper();
-Console.Write("Atende pela alcunha de: ");
+Console.WriteLine("Digite a espécie do animal: "); 
+string especie = Console.ReadLine();
+
+Console.WriteLine("Digite a raça do animal: ");
+string raca = Console.ReadLine();
+
+Console.WriteLine("Atende pela alcunha de: ");
 string alcunha = Console.ReadLine();
-Console.Write("Idade (em anos): ");
-int idade = int.Parse(Console.ReadLine());
-Console.Write("Pelagem/cor: ");
-string pelagem = Console.ReadLine().ToUpper();
 
-Console.Clear();
+Console.WriteLine("Digite a idade do animal: ");
+string idade = Console.ReadLine();
 
-Console.WriteLine("+=========================================================+");
-Console.WriteLine("|                 Pet Hotel \"Nem um pio\"                  |");
-Console.WriteLine("+=========================================================+");
-Console.WriteLine("| " + ("Espécie: " + especie).PadRight(24, '.') +" | " + ("Raça: " + raca).PadRight(28, '.') + " |");
-Console.WriteLine("+=========================================================+");
-string prefixAlcunha = "Atende pela alcunha de: ";
-int dotsCount = 57 - prefixAlcunha.Length - alcunha.Length;
-Console.WriteLine("| " + prefixAlcunha + new string('.', dotsCount) + alcunha + " |");
-Console.WriteLine("| " + ("Idade: " + idade.ToString("00") + " ano(s)").PadRight(26, ' ') + " | " + ("Pelagem/cor: " + pelagem).PadRight(28, '.') + " |");
- Console.WriteLine("+=========================================================+");
+Console.WriteLine("Digite a pelagem/cor do animal: ");
+string pelagem = Console.ReadLine();
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine("+===============================================================+");
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("|                    Pet Hotel \"Nem um pio\"                     |");
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine("+===============================================================+");
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.Write("| Espécie: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Write(especie.ToUpper().Trim().PadLeft(15, '.').Substring(0, 15));
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.Write(" | Raça: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Write(raca.ToUpper().Trim().PadLeft(28, '.').Substring(0, 28));
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine(" |");
+
+Console.ForegroundColor = ConsoleColor.Gray; 
+Console.WriteLine("+===============================================================+");
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.Write("| Atende pela Alcunha de: ");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.Write(alcunha.ToUpper().Trim().PadLeft(37, '.').Substring(0, 37));
+
+Console.ForegroundColor = ConsoleColor.Gray; 
+Console.WriteLine(" |");
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.Write("| Idade: ");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.Write($@"{idade.Trim().ToUpper().PadLeft(2, '0').Substring(0, 2)} ano(s)");
+
+Console.ForegroundColor = ConsoleColor.Gray; 
+Console.Write(" | Pelagem/cor: ");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.Write(pelagem.Trim().ToUpper().PadLeft(29, '.').Substring(0, 29));
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine(" |");
+
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine("+===============================================================+");
+
+Console.ResetColor();
